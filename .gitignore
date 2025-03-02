@@ -173,9 +173,9 @@ cython_debug/
 # original_ignore_dirs
 # resources/
 
-# resources/3_history_img/
-# resources/2_playerdata/
-# resources/1_historys/
-# resources/5_tmp_data/
-# resources/4_whitelist/
+resources/3_history_img/
+resources/2_playerdata/
+resources/1_historys/
+resources/5_tmp_data/
+resources/4_whitelist/
 .DS_Store
