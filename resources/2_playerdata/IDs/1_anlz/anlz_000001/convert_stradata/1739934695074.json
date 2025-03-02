@@ -1,0 +1,128 @@
+{
+    "general": {
+        "stranumber": "1739934695074",
+        "error_msg": [],
+        "position": "BTN",
+        "initial_stack": 196.7,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BTN": "anlz_000618",
+            "SB": "anlz_001209",
+            "BB": "anlz_000178",
+            "UTG": "me",
+            "HJ": "anlz_001163",
+            "CO": "anlz_001206"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "1.5(pot/stack:1%(1%), gto:1.5)",
+                "solution": {
+                    "Fold": 54.9,
+                    "Raise2.5": 45.1,
+                    "Allin150": 0.0
+                },
+                "action": "2.5(Raise),(gto_near:Raise2.5)",
+                "situation": {
+                    "all_Fold": {
+                        "count": 3
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "As",
+                "3h",
+                "Kh"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "9.0(pot/stack:5%(7%), gto:8.0)",
+                "solution": {
+                    "Fold": 31.0,
+                    "Call": 42.0,
+                    "Raise50%": 17.0,
+                    "Raise100%": 9.8,
+                    "Allin1455%": 0.2
+                },
+                "action": "3.0(Call)(near_gto:Call)",
+                "situation": {
+                    "original_Raiser": "SB",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "2.5(Raise)",
+                    "others_action_current": "3.0(Bet(50%))",
+                    "others_action_pre_phase": "2.5(Call)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "Jc"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "12.0(pot/stack:6%(9%), gto:10.0)",
+                "solution": {
+                    "Check": 69.8,
+                    "Bet33%": 11.0,
+                    "Bet50%": 7.6,
+                    "Bet75%": 6.2,
+                    "Bet125%": 3.0,
+                    "Bet175%": 1.4,
+                    "Bet250%": 1.0,
+                    "Allin1455%": 0.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "3.0(Bet(50%))"
+                }
+            }
+        ]
+    },
+    "river": {
+        "general": {
+            "board": [
+                "7h"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "12.0(pot/stack:6%(9%), gto:10.0)",
+                "solution": {
+                    "Check": 79.4,
+                    "Bet35%": 2.3,
+                    "Bet75%": 16.8,
+                    "Bet150%": 1.2,
+                    "Allin1455%": 0.3
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    }
+}

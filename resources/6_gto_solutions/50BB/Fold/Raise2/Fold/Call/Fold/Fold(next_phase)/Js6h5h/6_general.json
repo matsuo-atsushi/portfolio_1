@@ -1,0 +1,13 @@
+{
+    "pot_size": 5.5,
+    "range_action": {
+        "Hand": "range",
+        "Check": 62.1,
+        "Bet20%": 1.8,
+        "Bet33%": 13.6,
+        "Bet50%": 18.5,
+        "Bet75%": 3.4,
+        "Bet125%": 0.6,
+        "Allin873%": 0.0
+    }
+}

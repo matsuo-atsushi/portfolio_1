@@ -1,0 +1,135 @@
+{
+    "general": {
+        "stranumber": "1739951042818",
+        "error_msg": [],
+        "position": "CO",
+        "initial_stack": 105.7,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "UTG": "anlz_000264",
+            "HJ": "anlz_000110",
+            "CO": "anlz_000704",
+            "BTN": "me",
+            "SB": "anlz_000498",
+            "BB": "anlz_000030"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "3.7(pot/stack:4%(4%), gto:3.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise6.5": 9.0,
+                    "Call": 1.4,
+                    "Fold": 89.5
+                },
+                "action": "6.7(Raise),(gto_near:Raise6.5)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "UTG"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "8s",
+                "5h",
+                "Qc"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "14.9(pot/stack:15%(15%), gto:14.5)",
+                "solution": {
+                    "Check": 6.8,
+                    "Bet20%": 0.6,
+                    "Bet33%": 66.4,
+                    "Bet50%": 25.8,
+                    "Bet75%": 0.5,
+                    "Bet125%": 0.0,
+                    "Allin645%": 0.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": "CO",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "6.7(Raise)",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "2.2(Raise)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "Td"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "14.9(pot/stack:15%(15%), gto:14.5)",
+                "solution": {
+                    "Check": 64.1,
+                    "Bet20%": 0.0,
+                    "Bet33%": 0.0,
+                    "Bet50%": 0.1,
+                    "Bet75%": 13.8,
+                    "Bet125%": 22.0,
+                    "Bet175%": 0.1,
+                    "Bet250%": 0.0,
+                    "Allin645%": 0.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    },
+    "river": {
+        "general": {
+            "board": [
+                "3c"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "24.9(pot/stack:25%(28%), gto:25.5)",
+                "solution": {
+                    "Fold": 46.7,
+                    "Call": 46.5,
+                    "Raise40%": 0.0,
+                    "Raise64%": 2.6,
+                    "Allin226%": 4.2
+                },
+                "action": "Fold(near_gto:Fold)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "10.0(Bet(67%))",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    }
+}

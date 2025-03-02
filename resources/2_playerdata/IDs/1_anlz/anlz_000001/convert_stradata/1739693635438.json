@@ -1,0 +1,43 @@
+{
+    "general": {
+        "stranumber": "1739693635438",
+        "error_msg": [],
+        "position": "BTN",
+        "initial_stack": 100.5,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BTN": "anlz_000618",
+            "SB": "anlz_000727",
+            "BB": "anlz_000895",
+            "UTG": "me",
+            "HJ": "anlz_000910",
+            "CO": "anlz_000871"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "3.7(pot/stack:4%(4%), gto:3.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise7.5": 9.4,
+                    "Call": 5.6,
+                    "Fold": 85.1
+                },
+                "action": "Fold,(gto_near:Fold)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "HJ"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

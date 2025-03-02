@@ -1,0 +1,70 @@
+{
+    "general": {
+        "stranumber": "1739867554326",
+        "error_msg": [],
+        "position": "UTG",
+        "initial_stack": 101.5,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "UTG": "anlz_000618",
+            "HJ": "anlz_000435",
+            "CO": "anlz_001088",
+            "BTN": "me",
+            "SB": "anlz_001100",
+            "BB": "anlz_000413"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "1.5(pot/stack:1%(1%), gto:1.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise2": 17.6,
+                    "Fold": 82.4
+                },
+                "action": "2.5(Raise),(gto_near:Raise2)",
+                "situation": {
+                    "all_Fold": {
+                        "count": 0
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "As",
+                "3c",
+                "9c"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "5.5(pot/stack:6%(6%), gto:4.5)",
+                "solution": {
+                    "Check": 39.4,
+                    "Bet33%": 42.2,
+                    "Bet50%": 15.8,
+                    "Bet76%": 2.3,
+                    "Bet124%": 0.4,
+                    "Allin2178%": 0.0
+                },
+                "action": "1.7(Bet(31%))(near_gto:Bet33%)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "2.5(Raise)",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "2.5(Call)"
+                }
+            }
+        ]
+    }
+}

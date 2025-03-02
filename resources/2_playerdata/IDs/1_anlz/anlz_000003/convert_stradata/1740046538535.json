@@ -1,0 +1,80 @@
+{
+    "general": {
+        "stranumber": "1740046538535",
+        "error_msg": [
+            "preflop: cant_choice_Call_player"
+        ],
+        "position": "CO",
+        "initial_stack": 104.7,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "HJ": "anlz_001125",
+            "CO": "anlz_000704",
+            "BTN": "anlz_000849",
+            "SB": "me",
+            "BB": "anlz_001296",
+            "UTG": "anlz_000267"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "3.7(pot/stack:4%(4%), gto:3.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise6.5": 9.0,
+                    "Call": 1.4,
+                    "Fold": 89.5
+                },
+                "action": "6.7(Raise),(gto_near:Raise6.5)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "UTG"
+                        ]
+                    }
+                }
+            },
+            {
+                "pot": {
+                    "real": "35.1(pot/stack:36%(42%), gto:26.0)",
+                    "gto_againt_Fold": 26.0,
+                    "gto_againt_Raise": 51.0
+                },
+                "solution": [
+                    {
+                        "against": "Fold",
+                        "solution": {
+                            "Allin100": 14.4,
+                            "Raise33": 2.8,
+                            "Call": 42.8,
+                            "Fold": 40.0
+                        }
+                    },
+                    {
+                        "against": "Raise",
+                        "solution": {
+                            "Allin100": 7.6,
+                            "Fold": 92.4
+                        }
+                    }
+                ],
+                "action": "Fold,(gto_near:None)",
+                "situation": {
+                    "Raiser": {
+                        "count": 3,
+                        "positions": [
+                            "UTG",
+                            "CO"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

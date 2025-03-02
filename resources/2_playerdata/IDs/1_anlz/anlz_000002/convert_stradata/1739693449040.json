@@ -1,0 +1,139 @@
+{
+    "general": {
+        "stranumber": "1739693449040",
+        "error_msg": [],
+        "position": "UTG",
+        "initial_stack": 80.0,
+        "about_hand": "AA",
+        "detail_hand": "AsAc",
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "CO": "anlz_000880",
+            "BTN": "anlz_000871",
+            "SB": "anlz_000725",
+            "BB": "me",
+            "UTG": "anlz_000696",
+            "HJ": "anlz_000922"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "1.5(pot/stack:2%(2%), gto:1.5)",
+                "solution": {
+                    "range": {
+                        "Allin75": 0.0,
+                        "Raise2": 17.6,
+                        "Fold": 82.4
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Raise2": 100.0,
+                        "Allin75": 0.0
+                    }
+                },
+                "action": "2.0(Raise)(near_gto:Raise2)",
+                "EV": {
+                    "total": "7.53(502.0%)",
+                    "Fold": "0.0(0.0%)",
+                    "Raise2": "7.53(502.0%)",
+                    "Allin75": "5.71(380.7%)"
+                },
+                "situation": {
+                    "all_Fold": {
+                        "count": 0
+                    }
+                }
+            },
+            {
+                "pot": "9.5(pot/stack:12%(29%), gto:9.5)",
+                "solution": {
+                    "range": {
+                        "Allin40": 6.8,
+                        "Raise13": 21.2,
+                        "Call": 14.5,
+                        "Fold": 57.5
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Call": 0.0,
+                        "Raise13": 100.0,
+                        "Allin40": 0.0
+                    }
+                },
+                "action": "18.0(Raise)(near_gto:Raise13)",
+                "EV": {
+                    "total": "17.19(180.9%)",
+                    "Fold": "0.0(0.0%)",
+                    "Call": "16.03(168.7%)",
+                    "Raise13": "17.19(180.9%)",
+                    "Allin40": "16.32(171.8%)"
+                },
+                "situation": {
+                    "Raiser": {
+                        "count": 2,
+                        "positions": [
+                            "UTG",
+                            "BTN"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "Tc",
+                "8s",
+                "9d"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "37.5(pot/stack:60%(177%), gto:27.5)",
+                "solution": [
+                    {
+                        "range": {
+                            "Check": 16.3,
+                            "Bet10%": 0.3,
+                            "Bet25%": 2.0,
+                            "Bet50%": 23.4,
+                            "Allin98%": 58.0
+                        }
+                    },
+                    {
+                        "detail": {
+                            "Check": 0.0,
+                            "Bet10%": 0.0,
+                            "Bet25%": 0.0,
+                            "Bet50%": 29.2,
+                            "Allin98%": 70.8
+                        }
+                    }
+                ],
+                "action": "37.5(Bet(100%))(near_gto:Allin98%)",
+                "EV": {
+                    "total": "17.23(62.7%)",
+                    "Check": "17.03(61.9%)",
+                    "Bet10%": "16.9(61.5%)",
+                    "Bet25%": "17.17(62.4%)",
+                    "Bet50%": "17.23(62.7%)",
+                    "Allin98%": "17.23(62.7%)"
+                },
+                "EQ": 59.9,
+                "EQR": 104.6,
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "18.0(Raise)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "6.0(Raise)"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,99 @@
+{
+    "general": {
+        "stranumber": "1739868146565",
+        "error_msg": [],
+        "position": "UTG",
+        "initial_stack": 153.5,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "SB": "anlz_000690",
+            "BB": "anlz_001135",
+            "UTG": "anlz_000704",
+            "HJ": "me",
+            "CO": "anlz_000799",
+            "BTN": "anlz_001103"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "1.5(pot/stack:1%(1%), gto:1.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise2": 17.6,
+                    "Fold": 82.4
+                },
+                "action": "2.0(Raise),(gto_near:Raise2)",
+                "situation": {
+                    "all_Fold": {
+                        "count": 0
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "6s",
+                "5d",
+                "Qc"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "4.5(pot/stack:3%(25%), gto:4.5)",
+                "solution": {
+                    "Check": 26.9,
+                    "Bet22%": 6.1,
+                    "Bet33%": 16.6,
+                    "Bet50%": 36.4,
+                    "Bet76%": 13.1,
+                    "Bet124%": 0.8,
+                    "Allin400%": 0.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "2.0(Raise)",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "2.0(Call)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "2c"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "5.5(pot/stack:4%(32%), gto:5.5)",
+                "solution": {
+                    "Fold": 16.5,
+                    "Call": 67.3,
+                    "Raise50%": 14.4,
+                    "Raise100%": 1.8,
+                    "Allin262%": 0.0
+                },
+                "action": "Fold(near_gto:Fold)",
+                "situation": {
+                    "original_Raiser": "BB",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "1.0(Bet(22%))",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    }
+}

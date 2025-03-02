@@ -1,0 +1,79 @@
+{
+    "general": {
+        "stranumber": "1740048055087",
+        "error_msg": [
+            "preflop: cant_choice_Call_player"
+        ],
+        "position": "SB",
+        "initial_stack": 143.2,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BTN": "anlz_000437",
+            "SB": "anlz_000618",
+            "BB": "anlz_001014",
+            "UTG": "me",
+            "HJ": "anlz_000016",
+            "CO": "anlz_000259"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "6.5(pot/stack:5%(7%), gto:5.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise13": 7.7,
+                    "Call": 4.3,
+                    "Fold": 88.0
+                },
+                "action": "13.0(Raise),(gto_near:Raise13)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "HJ"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "7c",
+                "4s",
+                "9d"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "29.5(pot/stack:23%(58%))",
+                "action": "14.5(Bet(49%))",
+                "situation": {
+                    "original_Raiser": "SB",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "13.0(Raise)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "13.0(Call)"
+                }
+            },
+            {
+                "pot": "87.5(pot/stack:76%(1182%))",
+                "action": "Fold",
+                "situation": {
+                    "original_Raiser": "CO",
+                    "this_player_before": "14.5(Bet(49%))",
+                    "this_player_pre_phase": "13.0(Raise)",
+                    "others_action_current": "43.5(Raise(66%))",
+                    "others_action_pre_phase": "13.0(Call)"
+                }
+            }
+        ]
+    }
+}

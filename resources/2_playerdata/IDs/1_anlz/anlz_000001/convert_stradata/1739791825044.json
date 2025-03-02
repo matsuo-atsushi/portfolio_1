@@ -1,0 +1,75 @@
+{
+    "general": {
+        "stranumber": "1739791825044",
+        "error_msg": [],
+        "position": "CO",
+        "initial_stack": 178.5,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "HJ": "anlz_000245",
+            "CO": "anlz_000618",
+            "BTN": "anlz_000607",
+            "SB": "me",
+            "BB": "anlz_001000",
+            "UTG": "anlz_000601"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "4.5(pot/stack:3%(3%), gto:4.0)",
+                "solution": {
+                    "Fold": 89.9,
+                    "Call": 1.7,
+                    "Raise8": 8.4,
+                    "Allin150": 0.0
+                },
+                "action": "9.0(Raise),(gto_near:Raise8)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "UTG"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "Tc",
+                "Ks",
+                "Js"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "19.5(pot/stack:12%(15%), gto:17.5)",
+                "solution": {
+                    "Check": 18.2,
+                    "Bet20%": 69.6,
+                    "Bet33%": 9.5,
+                    "Bet50%": 1.1,
+                    "Bet75%": 0.9,
+                    "Bet125%": 0.6,
+                    "Allin811%": 0.0
+                },
+                "action": "6.5(Bet(33%))(near_gto:Bet33%)",
+                "situation": {
+                    "original_Raiser": "CO",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "9.0(Raise)",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "3.0(Raise)"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,73 @@
+{
+    "general": {
+        "stranumber": "1740211361927",
+        "error_msg": [
+            "cant_trust_street"
+        ],
+        "position": "BB",
+        "initial_stack": 451.0,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "HJ": "anlz_000152",
+            "CO": "anlz_001464",
+            "BTN": "anlz_001466",
+            "SB": "me",
+            "BB": "anlz_000704",
+            "UTG": "anlz_000370"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "4.5(pot/stack:1%(4%), gto:3.5)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise12.3": 6.1,
+                    "Call": 37.0,
+                    "Fold": 56.9
+                },
+                "action": "3.0(Call),(gto_near:Call)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "HJ"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "8h",
+                "2d",
+                "3s"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "6.5(pot/stack:1%(5%), gto:4.5)",
+                "solution": {
+                    "Check": 99.7,
+                    "Bet33%": 0.3,
+                    "Allin2178%": 0.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": "HJ",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "3.0(Raise)"
+                }
+            }
+        ]
+    }
+}

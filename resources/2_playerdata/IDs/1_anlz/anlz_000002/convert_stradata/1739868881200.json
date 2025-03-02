@@ -1,0 +1,133 @@
+{
+    "general": {
+        "stranumber": "1739868881200",
+        "error_msg": [],
+        "position": "SB",
+        "initial_stack": 84.2,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "UTG": "anlz_001010",
+            "HJ": "anlz_000790",
+            "CO": "anlz_000835",
+            "BTN": "me",
+            "SB": "anlz_000696",
+            "BB": "anlz_000700"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "4.0(pot/stack:5%(5%), gto:3.5)",
+                "solution": {
+                    "Allin75": 0.0,
+                    "Raise9.5": 7.1,
+                    "Call": 5.5,
+                    "Fold": 87.4
+                },
+                "action": "2.5(Call),(gto_near:Call)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "UTG"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "Jh",
+                "2d",
+                "Kc"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "6.0(pot/stack:7%(7%), gto:5.0)",
+                "solution": {
+                    "Check": 100.0,
+                    "Bet33%": 0.0,
+                    "Allin1460%": 0.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "2.5(Call)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "2.5(Raise)"
+                }
+            },
+            {
+                "pot": "9.0(pot/stack:11%(11%), gto:7.5)",
+                "solution": {
+                    "Fold": 53.8,
+                    "Call": 30.2,
+                    "Raise50%": 1.4,
+                    "Raise100%": 14.4,
+                    "Allin705%": 0.3
+                },
+                "action": "3.0(Call)(near_gto:Call)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": "Check",
+                    "this_player_pre_phase": "2.5(Call)",
+                    "others_action_current": "3.0(Bet(50%))",
+                    "others_action_pre_phase": "2.5(Raise)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "5d"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "12.0(pot/stack:15%(15%), gto:10.0)",
+                "solution": {
+                    "Check": 99.5,
+                    "Bet20%": 0.3,
+                    "Bet50%": 0.2,
+                    "Allin705%": 0.1
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "3.0(Bet(50%))"
+                }
+            },
+            {
+                "pot": "29.5(pot/stack:37%(37%), gto:22.5)",
+                "solution": {
+                    "Fold": 56.9,
+                    "Call": 39.4,
+                    "Raise50%": 2.2,
+                    "Allin166%": 1.5
+                },
+                "action": "Fold(near_gto:Fold)",
+                "situation": {
+                    "original_Raiser": "UTG",
+                    "this_player_before": "Check",
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": "17.5(Bet(146%))",
+                    "others_action_pre_phase": "3.0(Bet(50%))"
+                }
+            }
+        ]
+    }
+}

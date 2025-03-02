@@ -1,0 +1,75 @@
+{
+    "general": {
+        "stranumber": "1739692188198",
+        "error_msg": [],
+        "position": "SB",
+        "initial_stack": 194.1,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "SB": "anlz_000704",
+            "BB": "anlz_000614",
+            "UTG": "anlz_000264",
+            "HJ": "me",
+            "CO": "anlz_000168",
+            "BTN": "anlz_000857"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "4.5(pot/stack:2%(2%), gto:4.0)",
+                "solution": {
+                    "Fold": 82.7,
+                    "Call": 5.6,
+                    "Raise11": 11.7,
+                    "Allin200": 0.0
+                },
+                "action": "15.0(Raise),(gto_near:Raise11)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "BTN"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "6h",
+                "6d",
+                "5s"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "31.0(pot/stack:17%(32%), gto:25.0)",
+                "solution": {
+                    "Check": 66.2,
+                    "Bet20%": 0.4,
+                    "Bet33%": 1.1,
+                    "Bet50%": 1.3,
+                    "Bet75%": 31.0,
+                    "Bet125%": 0.0,
+                    "Allin352%": 0.0
+                },
+                "action": "15.5(Bet(50%))(near_gto:Bet50%)",
+                "situation": {
+                    "original_Raiser": "SB",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "15.0(Raise)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "3.0(Raise)"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "resources/6_gto_solutions/75BB": [
+        "0_UTG.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2",
+            "2": "Allin75"
+        }
+    ],
+    "resources/6_gto_solutions/75BB/Fold": [
+        "1_HJ.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2",
+            "2": "Allin75"
+        }
+    ],
+    "resources/6_gto_solutions/75BB/Fold/Raise2": [
+        "2_CO.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise6.5",
+            "3": "Allin75"
+        }
+    ],
+    "resources/6_gto_solutions/75BB/Fold/Raise2/Fold": [
+        "3_BTN.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise7",
+            "3": "Allin75"
+        }
+    ],
+    "resources/6_gto_solutions/75BB/Fold/Raise2/Fold/Call": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise11",
+            "3": "Allin75"
+        }
+    ]
+}

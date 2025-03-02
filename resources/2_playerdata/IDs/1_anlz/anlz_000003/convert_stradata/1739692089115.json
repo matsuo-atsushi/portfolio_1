@@ -1,0 +1,101 @@
+{
+    "general": {
+        "stranumber": "1739692089115",
+        "error_msg": [
+            "postflop: multiway"
+        ],
+        "position": "BB",
+        "initial_stack": 182.5,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BB": "anlz_000704",
+            "UTG": "anlz_000289",
+            "HJ": "anlz_000851",
+            "CO": "me",
+            "BTN": "anlz_000831",
+            "SB": "anlz_000375"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "9.5(pot/stack:5%(5%), gto:12.5)",
+                "solution": {
+                    "Fold": 95.4,
+                    "Call": 0.3,
+                    "Raise34": 4.3,
+                    "Allin200": 0.0
+                },
+                "action": "6.0(Call),(gto_near:Call)",
+                "situation": {
+                    "Raiser": {
+                        "count": 2,
+                        "positions": [
+                            "CO",
+                            "BTN"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "3d",
+                "7c",
+                "Ts"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "18.5(pot/stack:10%(10%))",
+                "action": "Check",
+                "situation": {
+                    "original_Raiser": "BTN",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "6.0(Call)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "6.0(Raise)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "7h"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "18.5(pot/stack:10%(10%))",
+                "action": "Check",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "Check"
+                }
+            },
+            {
+                "pot": "24.5(pot/stack:14%(14%))",
+                "action": "Fold",
+                "situation": {
+                    "original_Raiser": "BTN",
+                    "this_player_before": "Check",
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "6.0(Bet(32%))",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    }
+}

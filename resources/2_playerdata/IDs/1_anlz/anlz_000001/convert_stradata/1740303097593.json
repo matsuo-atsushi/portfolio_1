@@ -1,0 +1,136 @@
+{
+    "general": {
+        "stranumber": "1740303097593",
+        "error_msg": [
+            "postflop: multiway"
+        ],
+        "position": "BB",
+        "initial_stack": 194.7,
+        "about_hand": "98s",
+        "detail_hand": "9d8d",
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "UTG": "anlz_000696",
+            "HJ": "anlz_001560",
+            "CO": "anlz_000266",
+            "BTN": "me",
+            "SB": "anlz_000911",
+            "BB": "anlz_000618"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "5.5(pot/stack:3%(6%), gto:6.1)",
+                "solution": {
+                    "range": {
+                        "Allin100": 0.0,
+                        "Raise14": 10.3,
+                        "Call": 14.0,
+                        "Fold": 75.7
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Call": 100.0,
+                        "Raise14": 0.0,
+                        "Allin100": 0.0
+                    }
+                },
+                "action": "2.0(Call)(near_gto:Call)",
+                "EV": {
+                    "total": "0.08(1.3%)",
+                    "Fold": "0.0(0.0%)",
+                    "Call": "0.08(1.3%)",
+                    "Raise14": "0.02(0.3%)",
+                    "Allin100": "-5.03(-82.5%)"
+                },
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "CO"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "5c",
+                "7s",
+                "Kd"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "6.5(pot/stack:3%(7%))",
+                "action": "Check",
+                "situation": {
+                    "original_Raiser": "CO",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "2.0(Call)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "2.0(Raise)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "9h"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "6.5(pot/stack:3%(7%))",
+                "action": "Check",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    },
+    "river": {
+        "general": {
+            "board": [
+                "6d"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "6.5(pot/stack:3%(7%))",
+                "action": "6.5(Bet(100%))",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "Check"
+                }
+            },
+            {
+                "pot": "32.5(pot/stack:17%(52%))",
+                "action": "48.7(Raise(56%))",
+                "situation": {
+                    "original_Raiser": "CO",
+                    "this_player_before": "6.5(Bet(100%))",
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "19.5(Raise(100%))",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    }
+}

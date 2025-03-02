@@ -1,0 +1,79 @@
+{
+    "general": {
+        "stranumber": "1739868955482",
+        "error_msg": [
+            "postflop: multiway"
+        ],
+        "position": "BB",
+        "initial_stack": 65.2,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BTN": "anlz_000168",
+            "SB": "anlz_000776",
+            "BB": "anlz_000696",
+            "UTG": "me",
+            "HJ": "anlz_000957",
+            "CO": "anlz_000264"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "7.0(pot/stack:11%(11%), gto:6.0)",
+                "solution": {
+                    "Allin75": 0.0,
+                    "Raise10": 13.8,
+                    "Call": 14.8,
+                    "Fold": 71.4
+                },
+                "action": "3.0(Call),(gto_near:Call)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "BTN"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "5h",
+                "Js",
+                "Ad"
+            ],
+            "position": "MP"
+        },
+        "solutions": [
+            {
+                "pot": "9.0(pot/stack:14%(14%))",
+                "action": "Check",
+                "situation": {
+                    "original_Raiser": "BTN",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": "Check",
+                    "others_action_pre_phase": "3.0(Raise)"
+                }
+            },
+            {
+                "pot": "15.0(pot/stack:24%(24%))",
+                "action": "Fold",
+                "situation": {
+                    "original_Raiser": "BTN",
+                    "this_player_before": "Check",
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": "3.0(Bet(33%))",
+                    "others_action_pre_phase": "3.0(Raise)"
+                }
+            }
+        ]
+    }
+}

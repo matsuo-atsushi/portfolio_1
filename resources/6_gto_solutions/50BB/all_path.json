@@ -1,0 +1,92 @@
+{
+    "resources/6_gto_solutions/50BB": [
+        "0_UTG.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2",
+            "2": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold": [
+        "1_HJ.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2",
+            "2": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Fold": [
+        "2_CO.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2.2",
+            "2": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Fold/Fold": [
+        "3_BTN.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2.5",
+            "2": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Fold/Fold/Raise2.5": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise8.5",
+            "3": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Fold/Fold/Fold": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise3",
+            "3": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Raise2": [
+        "2_CO.csv",
+        {
+            "0": "Fold",
+            "1": "Raise6",
+            "2": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold": [
+        "3_BTN.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise6",
+            "3": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise10",
+            "3": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call/Fold": [
+        "5_BB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise10",
+            "3": "Allin50"
+        }
+    ],
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call/Fold/Fold(next_phase)/5c3c2s": "continue",
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call/Fold/Fold(next_phase)/5c3c2s/Bet75%(R4.1)/Call(C)/Td": "continue",
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call/Fold/Fold(next_phase)/Js6h5h": "continue",
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call/Fold/Fold(next_phase)/Js6h5h/Check(X)/Check(X)/Kh": "continue",
+    "resources/6_gto_solutions/50BB/Fold/Raise2/Fold/Call/Fold/Fold(next_phase)/Js6h5h/Check(X)/Check(X)/Kh/Bet50%(R2.75)/Call(C)/Qd": "continue"
+}
