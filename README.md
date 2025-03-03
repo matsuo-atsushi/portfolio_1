@@ -11,7 +11,7 @@
 
 ## 技術スタック（Tech Stack）
 - 言語: Python 3.10.4
-- ライブラリ: Selenium, pytesseract, OpenCV
+- ライブラリ: Selenium, pytesseract, OpenCV, Pandas
 - その他: numpy, pyautogui, termcolor
 
 ## ライブラリのインストール方法（Installation）
