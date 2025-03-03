@@ -1,0 +1,9 @@
+selenium
+pytesseract
+pillow
+opencv-python
+numpy
+pyautogui
+termcolor
+pandas
+undetected-chromedriver
