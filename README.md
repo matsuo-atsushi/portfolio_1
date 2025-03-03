@@ -18,10 +18,12 @@
 以下のコマンドを実行して、必要なライブラリをインストールしてください。
 ```bash
 pip install -r requirements.txt
+```
 
 ## プログラムの実行
 ```bash
 python main.py
+```
 
 ## 今後の改良点（Future Plans）
 - 分析結果を視覚化するGUIの実装
