@@ -15,7 +15,6 @@ import strategy_analyzer_app.image_processing.image_handling as imghdr
 import strategy_analyzer_app.global_vars as glbvar
 
 
-#!!!
 def trim_screenshot_from_big(x_start, x_end, y_start, y_end, original_img_range=None, original_img_path='screenshot_temp.jpg', name='trimmed_original_img.jpg', resize=2):
     """
     gen2の全体スクショの指定の範囲をトリミングして保存する

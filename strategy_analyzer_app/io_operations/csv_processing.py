@@ -19,7 +19,7 @@ import strategy_analyzer_app.poker_logic.poker_action_processing as pkac
 import strategy_analyzer_app.global_vars as glbvar
 import strategy_analyzer_app.utils.other_utils as oths
 import strategy_analyzer_app.get_stradata.convert_data_for_analyze_stradata as cnvstra
-import strategy_analyzer_app.poker_screen_logic.get_data_from_screen as ctlscr
+import strategy_analyzer_app.display_processing.get_data_from_screen as ctlscr
 
 
 def make_json_data(path, data, alert=True):

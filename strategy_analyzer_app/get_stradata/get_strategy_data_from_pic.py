@@ -16,7 +16,7 @@ from strategy_analyzer_app.io_operations.print_processing import big_print, supp
 from strategy_analyzer_app.text_processing.text_extraction import convert_number, delete_non_numbers
 import strategy_analyzer_app.global_vars as glbvar
 import strategy_analyzer_app.image_processing.image_handling as imghdr
-import strategy_analyzer_app.poker_screen_logic.get_data_from_screen as ctlscr
+import strategy_analyzer_app.display_processing.get_data_from_screen as ctlscr
 import strategy_analyzer_app.poker_logic.poker_action_processing as pkac
 import strategy_analyzer_app.io_operations.csv_processing as csvproce
 import strategy_analyzer_app.io_operations.directory_operations as ctldir
