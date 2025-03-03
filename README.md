@@ -10,11 +10,18 @@
 - 戦略の改善支援（意思決定の傾向を特定し、戦略の最適化を提案）
 
 ## 技術スタック（Tech Stack）
-- 言語: Python
+- 言語: Python 3.10.4
 - ライブラリ: Selenium, pytesseract, OpenCV
 - その他: numpy, pyautogui, termcolor
 
-## インストール方法（Installation）
+## ライブラリのインストール方法（Installation）
+以下のコマンドを実行して、必要なライブラリをインストールしてください。
+```bash
+pip install -r requirements.txt
+
+## プログラムの実行
+```bash
+python main.py
 
 ## 今後の改良点（Future Plans）
 - 分析結果を視覚化するGUIの実装
