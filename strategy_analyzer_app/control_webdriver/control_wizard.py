@@ -70,7 +70,7 @@ def login_wizard_with_google(driver):
     while True:
         try:
             # 動作確認のためにGoogleを開く
-            driver.get("https://app.gtowizard.com/login")
+            driver.get("https://app.gtowｐizard.com/login")
 
             # 現在のURLが指定文字列を含むまで待機
             start_time = time.time()
@@ -81,7 +81,7 @@ def login_wizard_with_google(driver):
             while loading_time < limit_time:
                 try:
                     WebDriverWait(driver, 3).until(
-                        lambda d: "https://app.gtowizard.com/solutions" in d.current_url)
+                        lambda d: "https://app.gtowｐizard.com/solutions" in d.current_url)
                     print("指定のURLを含むページが読み込まれました。")
                     return
                 except:
@@ -105,7 +105,7 @@ def login_wizard_with_google(driver):
         except:
             try:
                 WebDriverWait(driver, 1).until(
-                    lambda d: "https://app.gtowizard.com/solutions" in d.current_url)
+                    lambda d: "https://app.gtowｐizard.com/solutions" in d.current_url)
                 print("指定のURLを含むページが読み込まれました。")
                 return
             except:
