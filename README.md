@@ -20,7 +20,7 @@
 pip install -r requirements.txt
 ```
 
-## プログラムの実行(How to Run)
+## プログラムの実行（How to Run）
 ```bash
 python main.py
 ```
