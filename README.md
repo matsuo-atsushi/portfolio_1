@@ -27,3 +27,4 @@ python main.py
 
 ## 今後の改良点（Future Plans）
 - 分析結果を視覚化するGUIの実装
+- GTOデータをローカルで計算する処理の実装
