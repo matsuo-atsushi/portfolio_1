@@ -38,6 +38,10 @@ target_style = None # 信頼できるデータしか集めないとき、without
 driver = None # 初期値
 
 def main():
+    """
+    1, idが小さいプレイヤー順に並べたリストを作成する
+    2, プリフロップのみ全てのデータを処理してから、ポストフロップのデータ収集を行う
+    """
 
     global check_postflop_solution, complete_anlyzID_list, target_count, target_style
 
