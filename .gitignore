@@ -174,7 +174,7 @@ cython_debug/
 # resources/
 
 resources/3_history_img/
-resources/2_playerdata/
+# resources/2_playerdata/
 resources/1_historys/
 resources/5_tmp_data/
 resources/4_whitelist/
