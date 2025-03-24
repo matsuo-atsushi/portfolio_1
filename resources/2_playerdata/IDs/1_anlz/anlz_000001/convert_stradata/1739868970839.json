@@ -1,0 +1,108 @@
+{
+    "general": {
+        "stranumber": "1739868970839",
+        "error_msg": [],
+        "position": "BB",
+        "initial_stack": 73.7,
+        "about_hand": "A4o",
+        "detail_hand": "Ac4d",
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BB": "anlz_000696",
+            "UTG": "anlz_000758",
+            "HJ": "anlz_001165",
+            "CO": "me",
+            "BTN": "anlz_001163",
+            "SB": "anlz_000790"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "4.0(pot/stack:6%(73%), gto:3.5)",
+                "solution": {
+                    "range": {
+                        "Allin20": 13.3,
+                        "Raise6": 8.3,
+                        "Call": 35.2,
+                        "Fold": 43.2
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Call": 58.5,
+                        "Raise6": 0.0,
+                        "Allin20": 41.5
+                    }
+                },
+                "action": "3.0(Call)(near_gto:Call)",
+                "EV": {
+                    "total": "0.61(17.4%)",
+                    "Fold": "0.0(0.0%)",
+                    "Call": "0.61(17.4%)",
+                    "Raise6": "0.4(11.4%)",
+                    "Allin20": "0.61(17.4%)"
+                },
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "SB"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "4s",
+                "Qd",
+                "Kd"
+            ],
+            "position": "IP"
+        },
+        "solutions": [
+            {
+                "pot": "11.5(pot/stack:16%(-%), gto:8.8)",
+                "solution": [
+                    {
+                        "range": {
+                            "Fold": 47.3,
+                            "Call": 49.9,
+                            "Raise50%": 0.0,
+                            "Allin110%": 2.7
+                        }
+                    },
+                    {
+                        "detail": {
+                            "Fold": 0.0,
+                            "Call": 100.0,
+                            "Raise50%": 0.0,
+                            "Allin110%": 0.0
+                        }
+                    }
+                ],
+                "action": "5.5(Call)(near_gto:Call)",
+                "EV": {
+                    "total": "0.62(7.0%)",
+                    "Fold": "0.0(0.0%)",
+                    "Call": "0.62(7.0%)",
+                    "Raise50%": "0.09(1.0%)",
+                    "Allin110%": "-0.18(-2.0%)"
+                },
+                "EQ": 47.3,
+                "EQR": 26.2,
+                "situation": {
+                    "original_Raiser": "SB",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "3.0(Call)",
+                    "others_action_current": "5.5(Allin(92%))",
+                    "others_action_pre_phase": "3.0(Raise)"
+                }
+            }
+        ]
+    }
+}

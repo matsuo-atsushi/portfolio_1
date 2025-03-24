@@ -1,0 +1,82 @@
+{
+    "general": {
+        "stranumber": "1740303543007",
+        "error_msg": [
+            "preflop: cant_choice_Call_player",
+            "preflop: no_solution_error"
+        ],
+        "position": "HJ",
+        "initial_stack": 136.0,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "CO": "anlz_001291",
+            "BTN": "anlz_001153",
+            "SB": "anlz_000624",
+            "BB": "me",
+            "UTG": "anlz_001356",
+            "HJ": "anlz_000696"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "3.7(pot/stack:3%(3%), gto:4.0)",
+                "solution": {
+                    "Fold": 90.9,
+                    "Call": 1.0,
+                    "Raise8": 8.1,
+                    "Allin150": 0.0
+                },
+                "action": "9.0(Raise),(gto_near:Raise8)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "UTG"
+                        ]
+                    }
+                }
+            },
+            {
+                "pot": {
+                    "real": "38.7(pot/stack:30%(30%), gto:37.5)",
+                    "gto_againt_Fold": 37.5,
+                    "gto_againt_Raise": 90.0
+                },
+                "solution": [
+                    {
+                        "against": "Fold",
+                        "solution": {
+                            "Fold": 51.4,
+                            "Call": 29.3,
+                            "Raise53": 5.4,
+                            "Allin150": 13.9
+                        }
+                    },
+                    {
+                        "against": "Raise",
+                        "solution": {
+                            "Fold": 92.4,
+                            "Call": 0.3,
+                            "Allin150": 7.3
+                        }
+                    }
+                ],
+                "action": "136.0(Allin),(gto_near:None)",
+                "situation": {
+                    "Raiser": {
+                        "count": 3,
+                        "positions": [
+                            "UTG",
+                            "HJ"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}

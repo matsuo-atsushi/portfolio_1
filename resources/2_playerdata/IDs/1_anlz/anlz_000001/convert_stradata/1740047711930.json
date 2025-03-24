@@ -1,0 +1,117 @@
+{
+    "general": {
+        "stranumber": "1740047711930",
+        "error_msg": [],
+        "position": "BB",
+        "initial_stack": 259.5,
+        "about_hand": null,
+        "detail_hand": null,
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "BB": "anlz_000696",
+            "UTG": "anlz_000437",
+            "HJ": "anlz_000110",
+            "CO": "me",
+            "BTN": "anlz_001318",
+            "SB": "anlz_000204"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "4.0(pot/stack:2%(3%), gto:4.0)",
+                "solution": {
+                    "Allin100": 0.0,
+                    "Raise13": 13.9,
+                    "Call": 25.8,
+                    "Fold": 60.3
+                },
+                "action": "2.5(Call),(gto_near:Call)",
+                "situation": {
+                    "Raiser": {
+                        "count": 1,
+                        "positions": [
+                            "BTN"
+                        ]
+                    }
+                }
+            }
+        ]
+    },
+    "flop": {
+        "general": {
+            "board": [
+                "4s",
+                "9d",
+                "5c"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "5.5(pot/stack:2%(5%), gto:5.5)",
+                "solution": {
+                    "Check": 97.0,
+                    "Bet33%": 3.0
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": "BTN",
+                    "this_player_before": null,
+                    "this_player_pre_phase": "2.5(Call)",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "2.5(Raise)"
+                }
+            }
+        ]
+    },
+    "turn": {
+        "general": {
+            "board": [
+                "8c"
+            ],
+            "position": "OOP"
+        },
+        "solutions": [
+            {
+                "pot": "5.5(pot/stack:2%(5%), gto:5.5)",
+                "solution": {
+                    "Check": 42.2,
+                    "Bet33%": 26.1,
+                    "Bet50%": 9.0,
+                    "Bet75%": 7.0,
+                    "Bet125%": 5.7,
+                    "Bet175%": 6.2,
+                    "Bet250%": 3.8
+                },
+                "action": "Check(near_gto:Check)",
+                "situation": {
+                    "original_Raiser": null,
+                    "this_player_before": null,
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": null,
+                    "others_action_pre_phase": "Check"
+                }
+            },
+            {
+                "pot": "8.2(pot/stack:3%(7%), gto:8.2)",
+                "solution": {
+                    "Fold": 41.6,
+                    "Call": 46.8,
+                    "Raise50%": 0.1,
+                    "Raise100%": 11.5
+                },
+                "action": "Fold(near_gto:Fold)",
+                "situation": {
+                    "original_Raiser": "BTN",
+                    "this_player_before": "Check",
+                    "this_player_pre_phase": "Check",
+                    "others_action_current": "2.7(Bet(49%))",
+                    "others_action_pre_phase": "Check"
+                }
+            }
+        ]
+    }
+}

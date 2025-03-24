@@ -1,0 +1,114 @@
+{
+    "general": {
+        "stranumber": "1739951156228",
+        "error_msg": [],
+        "position": "HJ",
+        "initial_stack": 301.5,
+        "about_hand": "QQ",
+        "detail_hand": "QsQc",
+        "absent_count": 0,
+        "table_stakes": "2_4_Flash",
+        "each_player_id": {
+            "UTG": "anlz_000867",
+            "HJ": "anlz_000696",
+            "CO": "anlz_000697",
+            "BTN": "me",
+            "SB": "anlz_000178",
+            "BB": "anlz_000110"
+        }
+    },
+    "preflop": {
+        "general": {},
+        "solutions": [
+            {
+                "pot": "1.5(pot/stack:0%(1%), gto:1.5)",
+                "solution": {
+                    "range": {
+                        "Allin100": 0.0,
+                        "Raise2": 21.6,
+                        "Fold": 78.4
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Raise2": 100.0,
+                        "Allin100": 0.0
+                    }
+                },
+                "action": "2.0(Raise)(near_gto:Raise2)",
+                "EV": {
+                    "total": "1.96(130.7%)",
+                    "Fold": "0.0(0.0%)",
+                    "Raise2": "1.96(130.7%)",
+                    "Allin100": "-0.04(-2.7%)"
+                },
+                "situation": {
+                    "all_Fold": {
+                        "count": 1
+                    }
+                }
+            },
+            {
+                "pot": "11.0(pot/stack:4%(12%), gto:11.0)",
+                "solution": {
+                    "range": {
+                        "Allin100": 3.8,
+                        "Raise20": 20.4,
+                        "Call": 10.2,
+                        "Fold": 65.7
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Call": 1.5,
+                        "Raise20": 54.5,
+                        "Allin100": 44.0
+                    }
+                },
+                "action": "30.0(Raise)(near_gto:Raise20)",
+                "EV": {
+                    "total": "4.49(40.8%)",
+                    "Fold": "0.0(0.0%)",
+                    "Call": "4.49(40.8%)",
+                    "Raise20": "4.49(40.8%)",
+                    "Allin100": "4.49(40.8%)"
+                },
+                "situation": {
+                    "Raiser": {
+                        "count": 2,
+                        "positions": [
+                            "HJ",
+                            "BTN"
+                        ]
+                    }
+                }
+            },
+            {
+                "pot": "131.5(pot/stack:48%(-%), gto:121.5)",
+                "solution": {
+                    "range": {
+                        "Call": 47.2,
+                        "Fold": 52.8
+                    },
+                    "about": {
+                        "Fold": 0.0,
+                        "Call": 100.0
+                    }
+                },
+                "action": "100.0(Call)(near_gto:Call)",
+                "EV": {
+                    "total": "6.18(5.1%)",
+                    "Fold": "-0.04(-0.0%)",
+                    "Call": "6.18(5.1%)"
+                },
+                "situation": {
+                    "Raiser": {
+                        "count": 4,
+                        "positions": [
+                            "HJ",
+                            "BTN"
+                        ]
+                    }
+                }
+            }
+        ]
+    }
+}
