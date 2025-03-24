@@ -234,7 +234,10 @@ save_error_directory = ''
 
 def main():
     """
-    
+    処理:
+    1, 画像を順に読み込む
+    2, まず、過去に読み込んだ画像かどうか判定をする
+    3, 問題なければ、解析に進む
     """
 
     global kk_stranumber, template_ocr_error_msg_list, some_error_msg_list, resent_player_id_list, save_error_directory
