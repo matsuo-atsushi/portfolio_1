@@ -1,0 +1,10 @@
+{
+    "pot_size": 4.0,
+    "range_action": {
+        "Hand": "range",
+        "Allin100": 0.0,
+        "Raise13": 13.9,
+        "Call": 25.8,
+        "Fold": 60.3
+    }
+}

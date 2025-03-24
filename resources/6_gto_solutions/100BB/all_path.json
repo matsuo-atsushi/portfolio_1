@@ -1,0 +1,132 @@
+{
+    "resources/6_gto_solutions/100BB": [
+        "0_UTG.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2",
+            "2": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold": [
+        "1_HJ.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2",
+            "2": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Fold": [
+        "2_CO.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2.3",
+            "2": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Fold/Fold": [
+        "3_BTN.csv",
+        {
+            "0": "Fold",
+            "1": "Raise2.5",
+            "2": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Fold/Fold/Raise2.5": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise12",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Fold/Fold/Raise2.5/Fold": [
+        "5_BB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise13",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Fold/Fold/Fold": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise3",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2": [
+        "2_CO.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise6.5",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Raise6.5": [
+        "3_BTN.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise13.1",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Raise6.5/Call": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Raise24.1",
+            "2": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Raise6.5/Call/Fold": [
+        "5_BB.csv",
+        {
+            "0": "Fold",
+            "1": "Raise24.1",
+            "2": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Raise6.5/Call/Fold/Fold": [
+        "6_HJ.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise22.9",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Raise6.5/Call/Fold/Fold/Fold(next_phase)/JsJd2s": "continue",
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Fold": [
+        "3_BTN.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise7.5",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Fold/Call": [
+        "4_SB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise13",
+            "3": "Allin100"
+        }
+    ],
+    "resources/6_gto_solutions/100BB/Fold/Raise2/Fold/Call/Fold": [
+        "5_BB.csv",
+        {
+            "0": "Fold",
+            "1": "Call",
+            "2": "Raise13.5",
+            "3": "Allin100"
+        }
+    ]
+}
